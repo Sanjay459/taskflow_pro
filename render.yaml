@@ -21,6 +21,9 @@ services:
     # Set these in the Render dashboard (Environment tab).
     # Do NOT hardcode secrets here — this file is committed to Git.
     envVars:
+      - key: PYTHON_VERSION
+        value: "3.11.0"
+
       - key: ENVIRONMENT
         value: production
 
