@@ -1,0 +1,55 @@
+TASKFLOW PRO — BILLING & REFUND POLICY
+========================================
+
+## Subscription Plans and Pricing
+- Free Plan: $0/month. No credit card required.
+- Pro Plan: $12 per user per month (billed monthly) or $10 per user per month (billed annually, 17% saving).
+- Business Plan: $25 per user per month (billed monthly) or $20 per user per month (billed annually, 20% saving).
+- Enterprise: Custom pricing. Contact sales@taskflowpro.com.
+
+All prices are in USD. Taxes may apply depending on your location.
+
+## Billing Cycle
+- Monthly plans: Billed on the same calendar date each month (e.g., subscribed on 5th = billed every 5th).
+- Annual plans: Billed once per year on the subscription anniversary date.
+- Adding new users mid-cycle is billed on a pro-rated basis for the remaining days in the billing period.
+
+## Payment Methods
+TaskFlow Pro accepts Visa, Mastercard, American Express, and PayPal. We do not accept prepaid cards, purchase orders, or cryptocurrency. Payment details are encrypted and handled by our payment processor (Stripe). TaskFlow Pro does not store full card numbers.
+
+## Upgrading Your Plan
+You can upgrade your plan at any time from Settings > Billing. The upgrade takes effect immediately and you will be charged a pro-rated amount for the remainder of your current billing period.
+
+## Downgrading Your Plan
+You can downgrade your plan at any time from Settings > Billing. The downgrade takes effect at the end of the current billing period. No partial refund is issued for the unused portion of a higher-tier plan after downgrading.
+
+## Cancelling Your Subscription
+You can cancel your subscription at any time from Settings > Billing > Cancel Subscription. After cancellation:
+- Your account remains active until the end of the paid billing period.
+- After expiry, your account reverts to the Free plan.
+- Projects exceeding the Free plan limits will be archived (not deleted) and can be restored if you resubscribe within 90 days.
+- After 90 days, archived projects are permanently deleted. This action is irreversible.
+
+## Refund Policy
+- Monthly subscriptions: No refunds are issued for partial months already paid.
+- Annual subscriptions: A pro-rated refund is available within the first 30 days of the annual subscription start date. After 30 days, no refunds are issued for annual subscriptions.
+- Free trial: If you cancel during a free trial period, no charges apply.
+- Exceptional circumstances: Refund requests outside the standard policy are reviewed case-by-case. Submit a request to billing@taskflowpro.com with your account email and reason.
+
+## Invoices
+Invoices are automatically emailed to the billing contact on file after each charge. You can also download past invoices from Settings > Billing > Invoice History.
+
+## Tax Exemption
+If your organisation is tax-exempt, email billing@taskflowpro.com with your tax exemption certificate. Tax exemption applies to future charges only; we cannot retroactively remove tax from past invoices.
+
+## Failed Payments
+If a payment fails:
+1. We will retry the charge after 3 days, then again after 7 days.
+2. You will receive email notifications at each retry.
+3. If payment fails after 3 attempts, your account will be downgraded to the Free plan.
+4. To restore your subscription, update your payment method in Settings > Billing and resubscribe.
+
+## Contacting Billing Support
+Email: billing@taskflowpro.com
+Response time: 1–2 business days.
+For urgent billing issues, Pro and Business customers can use live chat (Monday–Friday, 9am–6pm EST).

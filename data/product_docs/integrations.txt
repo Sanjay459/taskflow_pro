@@ -1,0 +1,82 @@
+TASKFLOW PRO — INTEGRATIONS GUIDE
+===================================
+
+## Available Integrations
+
+### Slack
+Connect TaskFlow Pro to your Slack workspace to receive task notifications in Slack channels.
+Setup:
+1. Go to Settings > Integrations > Slack.
+2. Click "Connect to Slack" and authorise TaskFlow Pro in your Slack workspace.
+3. Map each TaskFlow project to a Slack channel.
+4. Choose which events to notify: task created, task completed, task overdue, comment added.
+Available on: Pro and Business plans.
+
+### Microsoft Teams
+Receive TaskFlow notifications and create tasks directly from Microsoft Teams.
+Setup:
+1. Go to Settings > Integrations > Microsoft Teams.
+2. Click "Add to Teams" and follow the Microsoft authorisation flow.
+3. Use the /taskflow command in any Teams channel to create or query tasks.
+Available on: Pro and Business plans.
+
+### GitHub
+Link TaskFlow tasks to GitHub pull requests and commits.
+Setup:
+1. Go to Settings > Integrations > GitHub.
+2. Authorise TaskFlow Pro to access your GitHub organisation.
+3. In any task, link a GitHub PR or branch by pasting the URL in the "GitHub Link" field.
+4. Task status automatically updates when a linked PR is merged (optional, configurable).
+Available on: Pro and Business plans.
+
+### Jira
+Sync issues between Jira and TaskFlow Pro (one-way or two-way).
+Setup:
+1. Go to Settings > Integrations > Jira.
+2. Enter your Jira instance URL and an API token generated from your Atlassian account.
+3. Map Jira projects to TaskFlow projects.
+4. Configure sync direction and field mappings.
+Available on: Business plan only.
+
+### Google Calendar / Outlook Calendar
+Sync TaskFlow task due dates to your calendar.
+Setup:
+1. Go to Profile > Integrations > Calendar Sync.
+2. Click "Connect Google Calendar" or "Connect Outlook".
+3. Choose which projects to include in the sync.
+4. Task due dates appear as calendar events (read-only; changes must be made in TaskFlow).
+Available on: All plans (Free, Pro, Business).
+
+### Zapier
+Connect TaskFlow Pro to 5,000+ apps using Zapier.
+Available Triggers: Task created, task completed, task overdue, comment added, project created.
+Available Actions: Create task, update task status, add comment.
+Setup: Create a Zap at zapier.com and search for "TaskFlow Pro" as the app.
+Authentication: Use an API key generated from Settings > API & Integrations > API Keys.
+Available on: Pro and Business plans.
+
+### Harvest (Time Tracking)
+Sync time entries from Harvest to TaskFlow task logs.
+Available on: Business plan only.
+Setup: Settings > Integrations > Harvest. Enter your Harvest account ID and personal access token.
+
+### Toggl (Time Tracking)
+Start/stop Toggl timers from within TaskFlow task views.
+Available on: Business plan only.
+Setup: Settings > Integrations > Toggl. Enter your Toggl API token.
+
+---
+
+## API Access
+TaskFlow Pro provides a RESTful API for custom integrations.
+- API documentation: developers.taskflowpro.com
+- Generate API keys: Settings > API & Integrations > API Keys.
+- Rate limits: 1,000 requests/hour (Pro), 10,000 requests/hour (Business), custom (Enterprise).
+- Webhooks: Configure outgoing webhooks for real-time event delivery (Pro and above).
+
+---
+
+## Disconnecting an Integration
+1. Go to Settings > Integrations.
+2. Find the integration and click "Disconnect".
+3. Confirm the disconnection. Existing data linked through the integration is not deleted.

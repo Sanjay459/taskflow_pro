@@ -1,0 +1,38 @@
+TASKFLOW PRO — GETTING STARTED GUIDE
+=====================================
+
+## What is TaskFlow Pro?
+TaskFlow Pro is a cloud-based project management platform designed for teams of all sizes. It helps you plan projects, assign tasks, track progress, and collaborate in real time.
+
+## Creating Your Account
+1. Visit app.taskflowpro.com and click "Sign Up".
+2. Enter your work email address and choose a password (minimum 8 characters, must include one number and one symbol).
+3. Verify your email by clicking the confirmation link sent to your inbox.
+4. Complete your profile by adding your name and organisation.
+
+## Setting Up Your First Project
+1. From the Dashboard, click "+ New Project".
+2. Enter a Project Name, select a template (Kanban, Scrum, or List), and set the project start date.
+3. Invite team members by entering their email addresses under "Team Members".
+4. Click "Create Project" to get started.
+
+## Creating and Assigning Tasks
+1. Open a project and click "+ Add Task".
+2. Fill in the task title, description, due date, and priority (Low / Medium / High / Critical).
+3. Assign the task to a team member using the "Assignee" dropdown.
+4. Click "Save Task". The assignee will receive an email notification.
+
+## Dashboard Overview
+- My Tasks: All tasks assigned to you across all projects.
+- Inbox: Notifications for mentions, comments, and status changes.
+- Reports: High-level project health summaries (available on Pro and Business plans).
+- Calendar: View all task due dates in a calendar layout.
+
+## Mobile App
+TaskFlow Pro is available on iOS (App Store) and Android (Google Play). Search for "TaskFlow Pro" to download. The mobile app supports task creation, commenting, and status updates but not project creation.
+
+## Getting Help
+- In-app: Click the "?" icon in the bottom-right corner for contextual help.
+- Email support: support@taskflowpro.com (response within 1 business day).
+- Live chat: Available Monday–Friday, 9am–6pm EST (Pro and Business plans only).
+- Community forum: community.taskflowpro.com

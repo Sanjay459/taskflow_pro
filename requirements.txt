@@ -1,0 +1,51 @@
+# Core LLM & LangChain
+langchain>=0.2.0
+langchain-openai>=0.1.0
+langchain-community>=0.2.0
+langchain-core>=0.2.0
+langchain-text-splitters>=0.2.0
+
+# LLM Provider
+openai>=1.30.0
+
+# Agent orchestration (modern LangChain)
+langgraph>=0.2.0
+
+# Vector Store & Embeddings
+# chromadb>=0.5.0  # kept as fallback — not the primary store
+pinecone>=3.0.0
+langchain-pinecone>=0.2.0
+tiktoken>=0.7.0
+
+# Environment & Config
+python-dotenv>=1.0.0
+
+# API / Deployment
+fastapi>=0.111.0
+uvicorn>=0.30.0
+gradio>=4.0.0
+
+# Observability
+langsmith>=0.1.0
+
+# Integrations
+slack-sdk>=3.0.0
+gspread>=6.0.0
+google-auth>=2.0.0
+
+# Database (conversation history + tickets + audit log)
+sqlalchemy>=2.0.0
+psycopg2-binary>=2.9.0
+
+# Data & Evaluation
+pandas>=2.0.0
+numpy>=1.26.0
+pydantic>=2.7.0
+
+# Language detection (adaptive multilingual responses)
+langdetect>=1.0.9
+
+# Notebook
+jupyter>=1.0.0
+ipykernel>=6.29.0
+ipywidgets>=8.1.0

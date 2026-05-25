@@ -1,0 +1,64 @@
+# render.yaml — Render Blueprint for TaskFlow Pro Support Agent
+# Docs: https://render.com/docs/blueprint-spec
+#
+# Defines one Web Service that serves both:
+#   - FastAPI REST API  →  /api/chat  /api/health
+#   - Gradio Chat UI    →  /chat
+
+services:
+  - type: web
+    name: taskflow-pro-agent
+    runtime: python
+    region: oregon           # change to your nearest region
+    plan: free               # upgrade to "starter" or above for always-on
+
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn main:app --host 0.0.0.0 --port $PORT
+
+    healthCheckPath: /api/health
+
+    # ---------- Environment variables ----------
+    # Set these in the Render dashboard (Environment tab).
+    # Do NOT hardcode secrets here — this file is committed to Git.
+    envVars:
+      - key: ENVIRONMENT
+        value: production
+
+      # --- LLM ---
+      - key: OPENAI_MODEL
+        value: gpt-4o
+
+      # --- Secrets (set values in Render dashboard, not here) ---
+      - key: OPENAI_API_KEY
+        sync: false          # Render will prompt you to fill this in
+
+      - key: PINECONE_API_KEY
+        sync: false
+
+      - key: PINECONE_INDEX_NAME
+        value: taskflow-kb
+
+      - key: PINECONE_ENVIRONMENT
+        value: us-east-1     # update to match your Pinecone region
+
+      - key: LANGSMITH_TRACING
+        value: "true"
+
+      - key: LANGSMITH_API_KEY
+        sync: false
+
+      - key: LANGSMITH_PROJECT
+        value: taskflow-pro-agent
+
+      - key: LANGSMITH_ENDPOINT
+        value: https://api.smith.langchain.com
+
+      # --- App config ---
+      - key: LOG_LEVEL
+        value: INFO
+
+      - key: DOCS_PATH
+        value: data/product_docs
+
+      # Note: VECTOR_STORE_PATH is only used by the ChromaDB fallback.
+      # On Render the filesystem is ephemeral, so Pinecone is used exclusively.

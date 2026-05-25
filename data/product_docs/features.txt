@@ -1,0 +1,49 @@
+TASKFLOW PRO — FEATURES REFERENCE
+===================================
+
+## Plans Overview
+- Free Plan: Up to 5 users, 3 projects, 1 GB storage, basic Kanban board.
+- Pro Plan ($12/user/month): Unlimited projects, 50 GB storage, Reports, Time Tracking, Priority Support.
+- Business Plan ($25/user/month): Everything in Pro plus SSO, Advanced Analytics, Custom Roles, 500 GB storage, SLA guarantee.
+- Enterprise Plan: Custom pricing. Contact sales@taskflowpro.com.
+
+## Task Management
+- Task statuses: To Do, In Progress, In Review, Done, Blocked.
+- Sub-tasks: Supported on Pro and above. Each task can have up to 50 sub-tasks.
+- Task dependencies: Mark tasks as "Blocked by" another task. Available on Pro and above.
+- Recurring tasks: Set tasks to repeat daily, weekly, monthly, or custom interval (Pro and above).
+- Bulk edit: Select multiple tasks and update status, assignee, or due date in one action.
+
+## Views
+- Kanban Board: Drag-and-drop cards across status columns.
+- List View: Spreadsheet-style view with sortable columns.
+- Gantt Chart: Timeline view showing task durations and dependencies (Pro and above).
+- Calendar View: Monthly or weekly view of due dates.
+- Workload View: See team capacity across all projects (Business plan only).
+
+## Collaboration
+- Comments: Add comments on any task. Mention teammates with @username.
+- File Attachments: Attach files up to 100 MB per file (Pro: 500 MB). Supported formats: PDF, PNG, JPG, DOCX, XLSX, ZIP.
+- Activity Log: Full history of all changes on a task.
+- Guest Access: Invite external users as guests (view-only). Available on Pro and above.
+
+## Automation
+- Rule-based automations: Trigger actions when conditions are met (e.g., "When due date passes, set status to Overdue and notify assignee").
+- Available on Pro and above. Maximum 50 active automations per workspace on Pro, 200 on Business.
+
+## Time Tracking
+- Log time directly on tasks using the "Log Time" button (Pro and above).
+- View time reports per user, project, or date range under Reports > Time.
+- Integrate with Harvest or Toggl for external time tracking (Business plan only).
+
+## Notifications
+- Email notifications: Configurable in Profile > Notifications.
+- In-app notifications: Shown in the Inbox.
+- Slack / Microsoft Teams notifications: Available via integrations (see Integrations doc).
+
+## Keyboard Shortcuts
+- N: Create new task (when in project view)
+- /: Open search
+- G then D: Go to Dashboard
+- G then P: Go to Projects
+- ?: Open keyboard shortcut reference

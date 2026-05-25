@@ -1,0 +1,95 @@
+TASKFLOW PRO — TROUBLESHOOTING GUIDE
+======================================
+
+## Login & Authentication Issues
+
+**Problem: Cannot log in — "Invalid email or password" error.**
+Solution:
+1. Check that Caps Lock is off.
+2. Try resetting your password at app.taskflowpro.com/forgot-password.
+3. Check your spam/junk folder for the reset email.
+4. If using SSO (Business plan), contact your IT administrator — SSO issues are managed by your organisation.
+
+**Problem: Verification email not received.**
+Solution:
+1. Check spam/junk folder.
+2. Wait up to 5 minutes, then request a new verification email from the login page.
+3. Ensure your email server is not blocking app.taskflowpro.com. Add it to your safe senders list.
+
+**Problem: Account locked after too many failed attempts.**
+Solution: Accounts are locked after 10 consecutive failed login attempts. Wait 30 minutes for the lockout to expire, or contact support@taskflowpro.com to unlock immediately.
+
+---
+
+## Task & Project Issues
+
+**Problem: Cannot create more projects (Free plan).**
+Solution: The Free plan supports a maximum of 3 projects. To create more, upgrade to Pro at app.taskflowpro.com/billing.
+
+**Problem: Task not appearing after creation.**
+Solution:
+1. Refresh the page (F5 or Ctrl+R).
+2. Check that you are viewing the correct project and status column.
+3. If the task was assigned to someone else, it may be filtered out. Clear all active filters.
+
+**Problem: File attachment fails to upload.**
+Solution:
+1. Check file size: Free plan max is 100 MB, Pro is 500 MB.
+2. Ensure file format is supported (PDF, PNG, JPG, DOCX, XLSX, ZIP).
+3. Check your internet connection stability.
+4. Try a different browser (Chrome or Firefox recommended).
+
+**Problem: Gantt chart is not visible.**
+Solution: Gantt Chart is only available on Pro and Business plans. Upgrade your plan to access this feature.
+
+---
+
+## Notifications Issues
+
+**Problem: Not receiving email notifications.**
+Solution:
+1. Go to Profile > Notifications and confirm email notifications are enabled.
+2. Add noreply@taskflowpro.com to your safe senders list.
+3. Check spam/junk folder.
+4. If issues persist, contact support.
+
+**Problem: Receiving too many notifications.**
+Solution: Go to Profile > Notifications and customise which events trigger notifications. You can disable notifications for comments, status changes, or specific projects individually.
+
+---
+
+## Performance Issues
+
+**Problem: App is slow or pages take long to load.**
+Solution:
+1. Clear your browser cache and cookies.
+2. Try an incognito/private window.
+3. Disable browser extensions one by one to identify conflicts.
+4. Ensure your browser is up to date (latest Chrome, Firefox, Edge, or Safari supported).
+5. Check our status page at status.taskflowpro.com for known outages.
+
+**Problem: Mobile app crashes on startup.**
+Solution:
+1. Force-close and restart the app.
+2. Ensure you have the latest version installed (check your app store).
+3. Restart your device.
+4. If the issue persists, uninstall and reinstall the app.
+
+---
+
+## Data & Sync Issues
+
+**Problem: Changes made on mobile are not showing on web.**
+Solution:
+1. Pull to refresh on the mobile app.
+2. Wait up to 60 seconds — sync may be delayed on slow connections.
+3. Force-close the mobile app and reopen it.
+4. Log out and log back in to force a full sync.
+
+---
+
+## Known Error Codes
+- ERR-401: Session expired. Log out and log back in.
+- ERR-403: You do not have permission to perform this action. Contact your workspace admin.
+- ERR-429: Too many requests. Wait 60 seconds and try again.
+- ERR-500: Internal server error. Check status.taskflowpro.com. If no outage is listed, contact support.

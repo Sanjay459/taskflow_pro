@@ -1,0 +1,62 @@
+TASKFLOW PRO — KNOWN ISSUES & SERVICE STATUS
+=============================================
+
+Last updated: May 2026
+
+## Currently Active Known Issues
+
+### KI-2024-001: Gantt Chart Slow to Load for Projects with 500+ Tasks
+Status: In Progress
+Affected Plans: Pro, Business
+Description: Projects containing more than 500 tasks may experience 5–15 second delays when opening the Gantt Chart view. The chart eventually loads correctly.
+Workaround: Filter tasks by date range or assignee before opening the Gantt view to reduce the number of tasks rendered.
+Expected Fix: Patch release scheduled for June 2026.
+
+### KI-2024-002: Slack Integration Notifications Delayed
+Status: Monitoring
+Affected Plans: Pro, Business
+Description: Some users report Slack notifications arriving 5–10 minutes late. This is caused by Slack API rate limits on our shared integration endpoint.
+Workaround: Use in-app or email notifications as a primary notification channel.
+Expected Fix: Architecture change to per-workspace Slack app in Q3 2026.
+
+### KI-2024-003: CSV Export Truncates Task Descriptions Over 1,000 Characters
+Status: Confirmed
+Affected Plans: All plans
+Description: When exporting tasks to CSV, descriptions longer than 1,000 characters are truncated without warning.
+Workaround: Export in JSON format (Settings > Data Export > Export as JSON) to retain full descriptions.
+Expected Fix: Next major release.
+
+---
+
+## Recently Resolved Issues
+
+### KI-2024-004: Mobile App Crash on iOS 17.4 (RESOLVED)
+Resolved: April 2026
+Description: The TaskFlow Pro iOS app crashed on launch for users running iOS 17.4 after an Apple system update.
+Fix Applied: App Store update v4.12.1 resolved the crash. Ensure you are on v4.12.1 or later.
+
+### KI-2024-005: Email Notifications Sent Twice for Comment Mentions (RESOLVED)
+Resolved: March 2026
+Description: Users received duplicate email notifications when mentioned in task comments.
+Fix Applied: Server-side deduplication logic deployed on 15 March 2026.
+
+---
+
+## Checking Live Service Status
+Visit status.taskflowpro.com for real-time status of all platform components:
+- Web Application
+- Mobile API
+- Notifications (Email, In-App, Slack)
+- File Storage
+- Reporting Engine
+
+You can subscribe to status updates via email or RSS at status.taskflowpro.com/subscribe.
+
+---
+
+## Reporting a New Bug
+If you encounter an issue not listed here:
+1. Click the "?" icon in the app and select "Report a Bug".
+2. Describe the issue, your browser/OS version, and steps to reproduce.
+3. Attach screenshots if possible.
+4. You will receive a ticket confirmation by email. Our engineering team reviews all bug reports within 2 business days.
